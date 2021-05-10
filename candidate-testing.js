@@ -35,14 +35,13 @@ function gradeQuiz(candidateAnswers) {
   // } else {
   //   console.log("Incorrect!");
   // }
-  let score = 0
-  let pass = ""
+  let score = 0;
+  let pass = "";
 
+  // hmmmmmmmmmmmmmmmmmm
   for (i = 0; i < questions.length; i++) {
     if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
       score += 1
-    } else {
-      score += 0
     }
   }
 
